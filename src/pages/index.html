@@ -1,12 +1,31 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Random User</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>Hello world!</h1>
+    <div class="wrap">
+    <img src="../img/avatar-animated.gif" alt="animated avatar" class="logo-gif" />
+    <h1 class="header">Random user generator</h1>
+    <div class="profile-card">
+      <div class="left-block">
+        <div class="image-block">
+          <img src="../img/21-avatar-outline.svg" alt="avatar" class="image-block__avatar" id="avatar" />
+        </div>
+      </div>
+      <div class="right-block">
+        <div class="data-block">
+          <div class="data-block__real-name" id="realname">real-name</div>
+          <div class="data-block__user-name" id="username">@user-name</div>
+          <div class="data-block__e-mail" id="email">e-mail</div>
+          <div class="data-block__country" id="country">country</div>
+        </div>
+      </div>
+    </div>
+    <button class="refresh-button" id="button">REFRESH</button>
+  </div>
   </body>
 </html>
