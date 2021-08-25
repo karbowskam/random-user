@@ -23,3 +23,13 @@ function fetchData(data) {
   var country = result.location.country;
   document.getElementById("country").innerHTML = country;
 }
+
+const refreshButton = document.getElementById("button");
+
+const refreshPage = () => {
+  fetch("https://randomuser.me/api")
+    .then((response) => response.json())
+    .then((data) => fetchData(data));
+};
+
+refreshButton.addEventListener("click", refreshPage);
