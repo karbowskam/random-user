@@ -1,35 +1,30 @@
-# Installation
+## Table of contents
 
-Simple toolkit for my static websites development.
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
 
-## How to use it?
+## Overview
 
-Go to https://github.com/karbowskam/full-starter-kit (this repository) and click on `Use this template` button to generate a new repository based on this starter kit. 
-After clone it to your computer, go to the project directory in console and type `npm install`.
-If you want to use gh pages, you need to configure it in gh pages settings. It's require to change your project visibility to public.
+This is the first project made using the API.
+I did it while doing the  [Java Script course on Udemy](https://www.udemy.com/course/kurs-programowanie-w-javascript-od-zera-do-mastera/)
+(Mobile version is in progress)
 
-## Available scripts
+### Screenshot
 
-`npm run start` - runs development mode with validation
+![](src/img/screenshot-desktop.png)
 
-`npm run build` - runs build process for production and creates dist folder (ready to publish) with validation
+### Links
 
-`npm run build-dev` - runs development mode without validation
+- Live Site URL: (https://karbowskam.github.io/random-user/)
 
-`npm run build-prod`- runs build process for production and creates dist folder (ready to publish) without validation
+## My process
 
-`npm run publish` - runs build process and publish the page using `gh-pages` branch (you have to configure using gh pages on github first)
+### Built with
 
-`npm run test` - runs validation (html, css, js)
-
-`npm run test-html` - runs html validation
-
-`npm run test-html-lint` - runs html linting (format code)
-
-`npm run test-css` - runs css validation
-
-`npm run test-css-lint` - runs css linting (format code)
-
-`npm run test-js` - runs js validation
-
-`npm run test-js-lint` - runs js linting (format code)
+- CSS Grid
+- SASS
+- Gulp
+- Java Script (API)
