@@ -1,3 +1,5 @@
+import "../scss/_main.scss";
+
 window.onload = function () {
   fetch("https://randomuser.me/api")
     .then((response) => response.json())
