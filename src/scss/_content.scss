@@ -1,0 +1,87 @@
+body {
+  color: rgb(255, 255, 255);
+  background-color: rgb(46, 42, 42);
+}
+
+.wrap {
+  background-color: rgba(0, 0, 0, 0.555);
+  width: 900px;
+  height: 600px;
+  border-radius: 10px;
+  margin: 30px auto 0 auto;
+  padding: 5px;
+}
+
+.header {
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+}
+
+.logo-gif {
+  display: block;
+  margin: 15px auto 0;
+  width: 120px;
+}
+
+.profile-card {
+  width: 450px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 200px 260px);
+  grid-template-rows: 190px;
+}
+
+.image-block {
+  &__avatar {
+    border-radius: 50%;
+    width: 160px;
+    border: rgba(214, 127, 255, 0.2) solid 4px;
+  }
+}
+
+.left-block {
+  margin: auto 0;
+}
+
+.right-block {
+  background-color: rgba(214, 127, 255, 0.2);
+  border-radius: 10px;
+}
+
+.data-block {
+  padding: 15px;
+
+  &__real-name {
+    font-size: 22px;
+  }
+
+  &__user-name {
+    margin: 5px 0 20px 0;
+    font-size: 20px;
+  }
+
+  &__e-mail {
+    padding-top: 20px;
+    margin-top: 15px;
+    border-top: yellow 1px solid;
+    font-size: 18px;
+  }
+
+  &__country {
+    margin-top: 5px;
+    font-size: 18px;
+  }
+}
+
+.refresh-button {
+  display: block;
+  margin: 70px auto 0 auto;
+  width: 120px;
+  height: 45px;
+  background-color: yellow;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
